@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0945C9BE22BCD03F0064DA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945C9BD22BCD03F0064DA29 /* AppDelegate.swift */; };
-		0945C9C022BCD03F0064DA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945C9BF22BCD03F0064DA29 /* ViewController.swift */; };
+		0945C9C022BCD03F0064DA29 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945C9BF22BCD03F0064DA29 /* MainViewController.swift */; };
 		0945C9C322BCD03F0064DA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0945C9C122BCD03F0064DA29 /* Main.storyboard */; };
 		0945C9C522BCD0400064DA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0945C9C422BCD0400064DA29 /* Assets.xcassets */; };
 		0945C9C822BCD0400064DA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0945C9C622BCD0400064DA29 /* LaunchScreen.storyboard */; };
+		0945C9D022BCD1500064DA29 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945C9CF22BCD1500064DA29 /* Story.swift */; };
+		0945C9D222BCD1AC0064DA29 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945C9D122BCD1AC0064DA29 /* Stories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0945C9BA22BCD03F0064DA29 /* TopStoriesOfNewYorkTimesInTableViewWithCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopStoriesOfNewYorkTimesInTableViewWithCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0945C9BD22BCD03F0064DA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0945C9BF22BCD03F0064DA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0945C9BF22BCD03F0064DA29 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0945C9C222BCD03F0064DA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0945C9C422BCD0400064DA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0945C9C722BCD0400064DA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0945C9C922BCD0400064DA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0945C9CF22BCD1500064DA29 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		0945C9D122BCD1AC0064DA29 /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				0945C9BD22BCD03F0064DA29 /* AppDelegate.swift */,
-				0945C9BF22BCD03F0064DA29 /* ViewController.swift */,
+				0945C9BF22BCD03F0064DA29 /* MainViewController.swift */,
 				0945C9C122BCD03F0064DA29 /* Main.storyboard */,
 				0945C9C422BCD0400064DA29 /* Assets.xcassets */,
 				0945C9C622BCD0400064DA29 /* LaunchScreen.storyboard */,
 				0945C9C922BCD0400064DA29 /* Info.plist */,
+				0945C9CF22BCD1500064DA29 /* Story.swift */,
+				0945C9D122BCD1AC0064DA29 /* Stories.swift */,
 			);
 			path = TopStoriesOfNewYorkTimesInTableViewWithCodable;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0945C9C022BCD03F0064DA29 /* ViewController.swift in Sources */,
+				0945C9C022BCD03F0064DA29 /* MainViewController.swift in Sources */,
+				0945C9D222BCD1AC0064DA29 /* Stories.swift in Sources */,
 				0945C9BE22BCD03F0064DA29 /* AppDelegate.swift in Sources */,
+				0945C9D022BCD1500064DA29 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
